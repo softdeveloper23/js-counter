@@ -13,12 +13,31 @@
     padding: 10px 20px;
     font-size: 1.5em;
     color: white;
-    background-color: hsl(214, 100%, 74%);
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.25s;
 }
 
-.buttons:hover {
-    background-color: hsl(214, 100%, 56%);
+#decreaseBtn {
+    background-color:hsl(0, 100%, 50%);
+}
+
+#resetBtn {
+    background-color: hsl(253, 100%, 50%);
+}
+
+#increaseBtn {
+    background-color: hsl(123, 100%, 40%);
+}
+
+#decreaseBtn:hover {
+    background-color: hsl(0, 100%, 75%);
+}
+
+#resetBtn:hover {
+    background-color: hsl(253, 100%, 70%);
+}
+
+#increaseBtn:hover {
+    background-color: hsl(123, 100%, 60%);
 }
